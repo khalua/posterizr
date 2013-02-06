@@ -1,0 +1,18 @@
+<div id="search_box">
+<form action="/search" method="post">
+  <input type="text" name="search" autofocus>
+  <button>Search</button>
+</form>
+<div id="text_results">
+<%= @title %>
+<p>
+<%= @rated %>
+</div>
+
+
+</div>
+
+<div id="poster_box">
+
+  <img src="<%= @poster %>">
+</div>

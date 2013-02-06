@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Stint+Ultra+Expanded);
+
+nav {
+  padding-bottom: 40px;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'Stint Ultra Expanded', cursive;
+}
+
+input {
+  padding: 5px;
+}
+
+button {
+  height: 30px;
+  width: 150px;
+}
+
+#search_box {
+  float: left;
+  height: 600px;
+  width: 300px;
+  margin-left: 10px
+}
+
+#poster_box {
+  display: inline-block;
+  width: 300px;
+  margin-left: 5px;
+}
+
+#text_results {
+  font-size: 40px;
+}
+
+nav li {
+  display: inline-block;
+}
