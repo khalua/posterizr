@@ -1,7 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Stint+Ultra+Expanded);
 
+body {
+}
+
+header {
+  margin-left: 10px;
+}
+
 nav {
   padding-bottom: 40px;
+  text-decoration: none;
 }
 
 h1 {
@@ -10,15 +18,16 @@ h1 {
 }
 
 input {
-  padding: 5px;
+  padding: 10px;
+  font-size: 15px;
 }
 
 button {
   height: 30px;
-  width: 150px;
+  width: 30px;
 }
 
-#search_box {
+#left_box {
   float: left;
   height: 600px;
   width: 300px;
@@ -32,7 +41,7 @@ button {
 }
 
 #text_results {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 nav li {

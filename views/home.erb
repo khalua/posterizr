@@ -1,18 +1,20 @@
-<div id="search_box">
-<form action="/search" method="post">
-  <input type="text" name="search" autofocus>
-  <button>Search</button>
-</form>
-<div id="text_results">
-<%= @title %>
-<p>
-<%= @rated %>
-</div>
-
-
+<div id="left_box">
+  <form action="/search" method="post">
+    <input type="text" name="search" autofocus>
+    <button>Go</button>
+  </form>
+  <div id="text_results">
+    <ul>
+    <li><%= @title %></li>
+    <p>
+    <li><%= @rated %></li>
+    <p>
+    <li><%= @director %></li>
+  </ul>
+  </div>
 </div>
 
 <div id="poster_box">
 
-  <img src="<%= @poster %>">
+  <img src="<%= @poster %> width="360" height="534">
 </div>

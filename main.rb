@@ -15,6 +15,7 @@ post '/search' do
   @b = JSON(@a)
   @title = @b["Title"]
   @rated = @b["Rated"]
+  @director = @b["Director"]
   @poster = @b["Poster"]
 
   erb :home
